@@ -1,4 +1,4 @@
-const answer = document.getElementById("answer");
+let answer = document.getElementById("answer");
 
 function disp(input)
 {
@@ -8,6 +8,10 @@ function disp(input)
 function clear()
 {
     answer.value = "";
+}
+
+function singleClear() {
+    answer.value = answer.value.slice(0, -1);
 }
 
 function calculate()

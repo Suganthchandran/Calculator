@@ -10,23 +10,27 @@
     <div class="calc">
         <input id="answer" readonly>
         <div id="btn">
-            <button onclick="disp('/')" class="opera">/</button>
+            <button onclick="disp('%')" class="opera2">%</button>
+            <button onclick="clear()" class="opera2">AC</button>
+            <button onclick="singleClear()" class="opera2">&lt;-</button>
+            <button onclick="disp('/')" class="opera1">/</button>
             <button onclick="disp('7')">7</button>
             <button onclick="disp('8')">8</button>
             <button onclick="disp('9')">9</button>
-            <button onclick="disp('*')" class="opera">*</button>
+            <button onclick="disp('*')" class="opera1">*</button>
             <button onclick="disp('4')">4</button>
             <button onclick="disp('5')">5</button>
             <button onclick="disp('6')">6</button>
-            <button onclick="disp('-')" class="opera">-</button>
+            <button onclick="disp('-')" class="opera1">-</button>
             <button onclick="disp('1')">1</button>
             <button onclick="disp('2')">2</button>
             <button onclick="disp('3')">3</button>
-            <button onclick="disp('+')" class="opera">+</button>
+            <button onclick="disp('+')" class="opera1">+</button>
             <button onclick="disp('0')">0</button>
+            <button onclick="disp('00')">00</button>
             <button onclick="disp('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clear()" class="opera">AC</button>
+            <button onclick="calculate()" class="opera1">=</button>
+            
         </div>
     </div>
     

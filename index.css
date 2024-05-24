@@ -11,7 +11,7 @@ body{
     font-family: Arial, sans-serif;
     max-width: 400px;
     overflow: hidden;
-    background-color: hsl(0, 0%, 15%);
+    background-color: black;
     border-radius: 15px;
 }
 
@@ -24,11 +24,11 @@ body{
 
 #answer{
     width: 100%;
-    border: none;
-    background-color: hsl(0, 0%, 20%);
     padding: 20px;
-    text-align: left;
     font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: black;
     color: white;
 }
 
@@ -40,26 +40,39 @@ button{
     font-size: 2.5rem;
     font-weight: bold;
     cursor: pointer;
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 10%);
     color: white;
 }
 
 button:hover{
-    background-color: hsl(0, 0%, 60%);
+    background-color: hsl(0, 0%, 15%);
 }
 
 button:active{
-    background-color: hsl(0, 0%, 70%);
+    background-color: hsl(0, 0%, 20%);
 }
 
-.opera{
+.opera1{
     background-color: hsl(35, 100%, 55%);
 }
 
-.opera:hover{
+.opera1:hover{
     background-color: hsl(35, 100%, 65%);
 }
 
-.opera:active{
+.opera1:active{
     background-color: hsl(35, 100%, 75%);
+}
+
+
+.opera2{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.opera2:hover{
+    background-color: hsl(0, 0%, 60%);
+}
+
+.opera2:active{
+    background-color: hsl(0, 0%, 70%);
 }
