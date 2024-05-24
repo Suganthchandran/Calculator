@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.calc{
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+}
+
+#btn{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap:10px;
+    padding: 25px;
+}
+
+#answer{
+    width: 100%;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px;
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 60%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 70%);
+}
+
+.opera{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.opera:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+
+.opera:active{
+    background-color: hsl(35, 100%, 75%);
+}
+
+
+
