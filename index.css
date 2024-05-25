@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -7,22 +7,31 @@ body{
     background-color: hsl(0, 0%, 95%);
 }
 
-.calc{
+.container {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+    margin: auto;
+}
+
+.calc {
     font-family: Arial, sans-serif;
     max-width: 400px;
     overflow: hidden;
     background-color: black;
     border-radius: 15px;
+    margin-top: 10px;
 }
 
-#btn{
+#btn {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap:10px;
+    gap: 10px;
     padding: 25px;
 }
 
-#answer{
+#answer {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -32,7 +41,7 @@ body{
     color: white;
 }
 
-button{
+button {
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -44,36 +53,35 @@ button{
     color: white;
 }
 
-button:hover{
+button:hover {
     background-color: hsl(0, 0%, 15%);
 }
 
-button:active{
+button:active {
     background-color: hsl(0, 0%, 20%);
 }
 
-.opera1{
+.opera1 {
     background-color: hsl(35, 100%, 55%);
 }
 
-.opera1:hover{
+.opera1:hover {
     background-color: hsl(35, 100%, 65%);
 }
 
-.opera1:active{
+.opera1:active {
     background-color: hsl(35, 100%, 75%);
 }
 
-
-.opera2{
+.opera2 {
     background-color: hsl(0, 0%, 50%);
 }
 
-.opera2:hover{
+.opera2:hover {
     background-color: hsl(0, 0%, 60%);
 }
 
-.opera2:active{
+.opera2:active {
     background-color: hsl(0, 0%, 70%);
 }
 
