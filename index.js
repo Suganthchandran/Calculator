@@ -5,7 +5,7 @@ function disp(input)
     answer.value +=  input;
 }
 
-function clear()
+function displayClear()
 {
     answer.value = "";
 }
