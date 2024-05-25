@@ -18,7 +18,8 @@ function calculate()
 {
     try
     {
-        answer.value = eval(answer.value);
+        let expression = answer.value.replace(/(^|[^0-9])0+(?=[0-9])/g, '$1');
+        answer.value = eval(expression);
     }
     catch(error)
     {
